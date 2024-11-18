@@ -167,3 +167,4 @@ C:\Users\rokas\source\repos\CRUD-API\CRUD-API\obj\Debug\net8.0\refint\CRUD-API.d
 C:\Users\rokas\source\repos\CRUD-API\CRUD-API\obj\Debug\net8.0\CRUD-API.pdb
 C:\Users\rokas\source\repos\CRUD-API\CRUD-API\obj\Debug\net8.0\CRUD-API.genruntimeconfig.cache
 C:\Users\rokas\source\repos\CRUD-API\CRUD-API\obj\Debug\net8.0\ref\CRUD-API.dll
+C:\Users\rokas\source\repos\CRUD-API\CRUD-API\obj\Debug\net8.0\CRUD-API.sourcelink.json
