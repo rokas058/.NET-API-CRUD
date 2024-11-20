@@ -1,44 +1,42 @@
 ﻿using CRUD_API.Data;
 using CRUD_API.Models.Entities;
+using Microsoft.EntityFrameworkCore;
 
 namespace CRUD_API.Repositories
 {
-    public class CustomerRepository : ICustomerRepository
+    public class CustomerRepository(AplicationDBContext dbContext) : ICustomerRepository
     {
-        private readonly AplicationDBContext _dBContext;
+        private readonly AplicationDBContext _dBContext = dbContext;
 
-        public CustomerRepository(AplicationDBContext dbContext)
+        public async Task<Customer> AddCustomer(Customer customer)
         {
-            _dBContext = dbContext;
-        }
-
-        public Customer AddCustomer(Customer customer)
-        {
-            _dBContext.Customers.Add(customer);
-            _dBContext.SaveChanges();
+            await _dBContext.Customers.AddAsync(customer);
+            await _dBContext.SaveChangesAsync();
             return customer;
         }
 
-        public void DeleteCustomer(Customer customer)
+        public async Task DeleteCustomer(Customer customer)
         {
             _dBContext.Customers.Remove(customer);
-            _dBContext.SaveChanges();
+            await _dBContext.SaveChangesAsync();
         }
 
-        public List<Customer> GetAllCustomers()
+        public async Task<List<Customer>> GetAllCustomers()
         {
-            return _dBContext.Customers.ToList();
+            return await _dBContext.Customers.ToListAsync(); 
         }
 
-        public Customer? GetCustomerById(int id)
+        public async Task<Customer?> GetCustomerById(int id)
         {
-            return _dBContext.Customers.Find(id);
+            return await _dBContext.Customers.FindAsync(id);
         }
 
-        public Customer UpdateCustomer(Customer customer)
+        public async Task<Customer> UpdateCustomer(Customer customer)
         {
-            _dBContext.Update(customer);
-            _dBContext.SaveChanges();
+            //_dBContext.Customers.Update(customer);
+            _dBContext.Customers.Attach(customer);
+            _dBContext.Entry(customer).State = EntityState.Modified;
+            await _dBContext.SaveChangesAsync();
             return customer;
         }
     }
