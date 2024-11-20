@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\rokas\\source\\repos\\CRUD-API\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C6A0534F-0F31-4F87-8088-8955D0DABA91}|CRUD-API\\CRUD-API.csproj|c:\\users\\rokas\\source\\repos\\crud-api\\crud-api\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6A0534F-0F31-4F87-8088-8955D0DABA91}|CRUD-API\\CRUD-API.csproj|solutionrelative:crud-api\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6A0534F-0F31-4F87-8088-8955D0DABA91}|CRUD-API\\CRUD-API.csproj|c:\\users\\rokas\\source\\repos\\crud-api\\crud-api\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6A0534F-0F31-4F87-8088-8955D0DABA91}|CRUD-API\\CRUD-API.csproj|solutionrelative:crud-api\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6A0534F-0F31-4F87-8088-8955D0DABA91}|CRUD-API\\CRUD-API.csproj|c:\\users\\rokas\\source\\repos\\crud-api\\crud-api\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6A0534F-0F31-4F87-8088-8955D0DABA91}|CRUD-API\\CRUD-API.csproj|solutionrelative:crud-api\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C6A0534F-0F31-4F87-8088-8955D0DABA91}|CRUD-API\\CRUD-API.csproj|c:\\users\\rokas\\source\\repos\\crud-api\\crud-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C6A0534F-0F31-4F87-8088-8955D0DABA91}|CRUD-API\\CRUD-API.csproj|solutionrelative:crud-api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 241,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,15 +38,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\rokas\\source\\repos\\CRUD-API\\CRUD-API\\Program.cs",
               "RelativeDocumentMoniker": "CRUD-API\\Program.cs",
               "ToolTip": "C:\\Users\\rokas\\source\\repos\\CRUD-API\\CRUD-API\\Program.cs",
               "RelativeToolTip": "CRUD-API\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAABMAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T11:37:17.108Z",
+              "WhenOpened": "2024-11-20T12:47:37.248Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\rokas\\source\\repos\\CRUD-API\\CRUD-API\\Repositories\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "CRUD-API\\Repositories\\CustomerRepository.cs",
+              "ToolTip": "C:\\Users\\rokas\\source\\repos\\CRUD-API\\CRUD-API\\Repositories\\CustomerRepository.cs",
+              "RelativeToolTip": "CRUD-API\\Repositories\\CustomerRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T12:18:02.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "C:\\Users\\rokas\\source\\repos\\CRUD-API\\CRUD-API\\Services\\CustomerService.cs",
+              "RelativeDocumentMoniker": "CRUD-API\\Services\\CustomerService.cs",
+              "ToolTip": "C:\\Users\\rokas\\source\\repos\\CRUD-API\\CRUD-API\\Services\\CustomerService.cs",
+              "RelativeToolTip": "CRUD-API\\Services\\CustomerService.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T10:16:32.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomersController.cs",
+              "DocumentMoniker": "C:\\Users\\rokas\\source\\repos\\CRUD-API\\CRUD-API\\Controllers\\CustomersController.cs",
+              "RelativeDocumentMoniker": "CRUD-API\\Controllers\\CustomersController.cs",
+              "ToolTip": "C:\\Users\\rokas\\source\\repos\\CRUD-API\\CRUD-API\\Controllers\\CustomersController.cs",
+              "RelativeToolTip": "CRUD-API\\Controllers\\CustomersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T08:24:11.081Z",
               "EditorCaption": ""
             }
           ]

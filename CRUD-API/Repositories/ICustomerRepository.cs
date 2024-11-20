@@ -4,10 +4,10 @@ namespace CRUD_API.Repositories
 {
     public interface ICustomerRepository
     {
-        List<Customer> GetAllCustomers();
-        Customer? GetCustomerById(int id); 
-        Customer AddCustomer(Customer customer); 
-        Customer UpdateCustomer(Customer customer); 
-        void DeleteCustomer(Customer customer); 
+        Task<List<Customer>> GetAllCustomers();
+        Task<Customer?> GetCustomerById(int id);
+        Task<Customer> AddCustomer(Customer customer);
+        Task<Customer> UpdateCustomer(Customer customer);
+        Task DeleteCustomer(Customer customer);
     }
 }
